@@ -11,7 +11,7 @@ import SwiftUI
 struct SPMsAndSDKsApp: App {
     var body: some Scene {
         WindowGroup {
-            ImageLoadingView()
+            KeychainSwiftBootcamp()
         }
     }
 }
