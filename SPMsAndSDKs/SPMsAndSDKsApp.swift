@@ -28,7 +28,7 @@ struct SPMsAndSDKsApp: App {
 //                })) {
 //                SwiftfulUIBootcamp()
 //            }
-            SwiftfulRoutingBootcamp()
+            LottieHelperView()
         }
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB08B5962BEF9C1C00A91701 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = EB08B5952BEF9C1C00A91701 /* Lottie */; };
+		EB08B5992BEF9F6900A91701 /* LottieBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB08B5982BEF9F6900A91701 /* LottieBootcamp.swift */; };
+		EB08B59D2BEFA74800A91701 /* StarAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = EB08B59C2BEFA74800A91701 /* StarAnimation.json */; };
 		EB38F0972BED288D00FDA211 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = EB38F0962BED288D00FDA211 /* SwiftfulRouting */; };
 		EB7E707A2BE3977400AF65F0 /* SPMsAndSDKsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E70792BE3977400AF65F0 /* SPMsAndSDKsApp.swift */; };
 		EB7E707E2BE3977500AF65F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7E707D2BE3977500AF65F0 /* Assets.xcassets */; };
@@ -26,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB08B5982BEF9F6900A91701 /* LottieBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieBootcamp.swift; sourceTree = "<group>"; };
+		EB08B59C2BEFA74800A91701 /* StarAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StarAnimation.json; sourceTree = "<group>"; };
 		EB7E70762BE3977400AF65F0 /* SPMsAndSDKs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMsAndSDKs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7E70792BE3977400AF65F0 /* SPMsAndSDKsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMsAndSDKsApp.swift; sourceTree = "<group>"; };
 		EB7E707D2BE3977500AF65F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,12 +55,21 @@
 				EBF1655F2BE3D93200683D28 /* Kingfisher in Frameworks */,
 				EBFCE6942BE39C3E0064E2C1 /* SDWebImageSwiftUI in Frameworks */,
 				EB38F0972BED288D00FDA211 /* SwiftfulRouting in Frameworks */,
+				EB08B5962BEF9C1C00A91701 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB08B5972BEF9F5600A91701 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EB08B5982BEF9F6900A91701 /* LottieBootcamp.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		EB7E706D2BE3977400AF65F0 = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +94,9 @@
 				EBC6926F2BEBAD4E005570AB /* Keychains */,
 				EB935BC92BECA58500A819F7 /* UIHelpers */,
 				EBAE1B662BEEA81400B93071 /* Routing */,
+				EB08B5972BEF9F5600A91701 /* Animations */,
 				EB7E707D2BE3977500AF65F0 /* Assets.xcassets */,
+				EB08B59C2BEFA74800A91701 /* StarAnimation.json */,
 				EB7E707F2BE3977500AF65F0 /* Preview Content */,
 			);
 			path = SPMsAndSDKs;
@@ -168,6 +184,7 @@
 				EBC692732BEBB170005570AB /* KeychainSwift */,
 				EB935BCD2BECAA2200A819F7 /* SwiftfulUI */,
 				EB38F0962BED288D00FDA211 /* SwiftfulRouting */,
+				EB08B5952BEF9C1C00A91701 /* Lottie */,
 			);
 			productName = SPMsAndSDKs;
 			productReference = EB7E70762BE3977400AF65F0 /* SPMsAndSDKs.app */;
@@ -203,6 +220,7 @@
 				EBC692722BEBB170005570AB /* XCRemoteSwiftPackageReference "keychain-swift" */,
 				EB935BCC2BECAA2200A819F7 /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
 				EB38F0952BED288D00FDA211 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
+				EB08B5942BEF9C1C00A91701 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = EB7E70772BE3977400AF65F0 /* Products */;
 			projectDirPath = "";
@@ -218,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB08B59D2BEFA74800A91701 /* StarAnimation.json in Resources */,
 				EB7E70812BE3977500AF65F0 /* Preview Assets.xcassets in Resources */,
 				EB7E707E2BE3977500AF65F0 /* Assets.xcassets in Resources */,
 			);
@@ -235,6 +254,7 @@
 				EB935BCB2BECAA0500A819F7 /* SwiftfulUIBootcamp.swift in Sources */,
 				EB7E707A2BE3977400AF65F0 /* SPMsAndSDKsApp.swift in Sources */,
 				EBAE1B682BEEA84C00B93071 /* SwiftfulRoutingBootcamp.swift in Sources */,
+				EB08B5992BEF9F6900A91701 /* LottieBootcamp.swift in Sources */,
 				EBC692712BEBAD6E005570AB /* KeychainSwiftBootcamp.swift in Sources */,
 				EBF165632BE3D9DD00683D28 /* ImageLoadingView.swift in Sources */,
 				EBF165612BE3D95800683D28 /* KingfisherBootcamp.swift in Sources */,
@@ -448,6 +468,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		EB08B5942BEF9C1C00A91701 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
 		EB38F0952BED288D00FDA211 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
@@ -491,6 +519,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		EB08B5952BEF9C1C00A91701 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB08B5942BEF9C1C00A91701 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
 		EB38F0962BED288D00FDA211 /* SwiftfulRouting */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = EB38F0952BED288D00FDA211 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
